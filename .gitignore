@@ -1,3 +1,6 @@
 _*
 build/
 dist/
+*.o
+sfnt2woff
+woff2sfnt
