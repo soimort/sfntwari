@@ -1,6 +1,6 @@
 # sfntwari
 
-Strip TrueType fonts and convert to WOFF for use in web pages using [sfntly](http://code.google.com/p/sfntly/).
+Use [sfntly](https://github.com/googlei18n/sfntly) to strip TrueType Fonts (TTF) and convert them to Web Open Fonts (WOFF) for use on web pages.
 
 Build sfntly:
 
