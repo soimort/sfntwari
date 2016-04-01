@@ -1,3 +1,3 @@
 #!/bin/sh
-xargs -I % java -jar dist/tools/sfnttool/sfnttool.jar -w -s '%' \
-      ${1:?Missing source font file} ${2:?Missing target font file}
+xargs -I % java -jar $(dirname $0)/dist/tools/sfnttool/sfnttool.jar -w -s '%' \
+      "${1:?Missing source font file}" "${2:?Missing target font file}"
